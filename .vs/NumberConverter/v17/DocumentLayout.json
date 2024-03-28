@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SycArmour\\Desktop\\repo\\B\\NumberConverter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40D9E80E-AF61-4BAB-AF12-CB85EE8CA935}|NumberConverter\\NumberConverter.csproj|c:\\users\\sycarmour\\desktop\\repo\\b\\numberconverter\\numberconverter\\controllers\\numberconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40D9E80E-AF61-4BAB-AF12-CB85EE8CA935}|NumberConverter\\NumberConverter.csproj|solutionrelative:numberconverter\\controllers\\numberconvertercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40D9E80E-AF61-4BAB-AF12-CB85EE8CA935}|NumberConverter\\NumberConverter.csproj|c:\\users\\sycarmour\\desktop\\repo\\b\\numberconverter\\numberconverter\\views\\numberconverter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40D9E80E-AF61-4BAB-AF12-CB85EE8CA935}|NumberConverter\\NumberConverter.csproj|solutionrelative:numberconverter\\views\\numberconverter\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40D9E80E-AF61-4BAB-AF12-CB85EE8CA935}|NumberConverter\\NumberConverter.csproj|c:\\users\\sycarmour\\desktop\\repo\\b\\numberconverter\\numberconverter\\services\\numbertowordconverterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40D9E80E-AF61-4BAB-AF12-CB85EE8CA935}|NumberConverter\\NumberConverter.csproj|solutionrelative:numberconverter\\services\\numbertowordconverterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 196,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NumberToWordConverterService.cs",
+              "DocumentMoniker": "C:\\Users\\SycArmour\\Desktop\\repo\\B\\NumberConverter\\NumberConverter\\Services\\NumberToWordConverterService.cs",
+              "RelativeDocumentMoniker": "NumberConverter\\Services\\NumberToWordConverterService.cs",
+              "ToolTip": "C:\\Users\\SycArmour\\Desktop\\repo\\B\\NumberConverter\\NumberConverter\\Services\\NumberToWordConverterService.cs",
+              "RelativeToolTip": "NumberConverter\\Services\\NumberToWordConverterService.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowH0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:55:43.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NumberConverterController.cs",
+              "DocumentMoniker": "C:\\Users\\SycArmour\\Desktop\\repo\\B\\NumberConverter\\NumberConverter\\Controllers\\NumberConverterController.cs",
+              "RelativeDocumentMoniker": "NumberConverter\\Controllers\\NumberConverterController.cs",
+              "ToolTip": "C:\\Users\\SycArmour\\Desktop\\repo\\B\\NumberConverter\\NumberConverter\\Controllers\\NumberConverterController.cs",
+              "RelativeToolTip": "NumberConverter\\Controllers\\NumberConverterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:51:54.741Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 204,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SycArmour\\Desktop\\repo\\B\\NumberConverter\\NumberConverter\\Views\\NumberConverter\\Index.cshtml",
+              "RelativeDocumentMoniker": "NumberConverter\\Views\\NumberConverter\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SycArmour\\Desktop\\repo\\B\\NumberConverter\\NumberConverter\\Views\\NumberConverter\\Index.cshtml",
+              "RelativeToolTip": "NumberConverter\\Views\\NumberConverter\\Index.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAGsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T15:51:42.518Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

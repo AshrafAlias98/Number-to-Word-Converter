@@ -1,0 +1,109 @@
+﻿@{
+    ViewBag.Title = "Numbers to Words Converter";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1500px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            width: 700px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .result-card p {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card-container">
+            <div class="card">
+                <h1>@ViewBag.Title</h1>
+                <form action="@Url.Action("ConvertNumberToWord", "NumberConverter")" method="post">
+                    <label for="number">Enter a number:</label><br>
+                    <input type="text" id="number" name="input" required><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="result-card card">
+                <label>Converted result: </label>
+                <p>@ViewBag.ConvertedNumber</p>
+            </div>
+        </div>
+        <div class="card" style="width:500px">
+            <div>
+                <h3>Note: </h3>
+                <span>This simple converter is made to support up to <strong>Vigintillion</strong> only (A number equal to 1 followed by 63 zeros).</span><br>
+                <span>It will also convert into <strong>currency</strong> formatting (word form) representation.</span><br><br>
+                <span>For reference: 
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/Names_of_large_numbers">Names of large numbers</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
