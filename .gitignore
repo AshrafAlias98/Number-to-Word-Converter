@@ -12,8 +12,18 @@
 *.user
 *.userosscache
 *.sln.docstates
-bin
-obj
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore directories
+bin/
+obj/
+.vs/
+
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
