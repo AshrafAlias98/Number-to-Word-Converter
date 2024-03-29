@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberConverter", "NumberConverter\NumberConverter.csproj", "{40D9E80E-AF61-4BAB-AF12-CB85EE8CA935}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberConverter", "NumberConverter\NumberConverter.csproj", "{40D9E80E-AF61-4BAB-AF12-CB85EE8CA935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberConverter.Test", "NumberConverter.Test\NumberConverter.Test.csproj", "{54E09013-7BEB-4B04-9371-00514F5AF1EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{40D9E80E-AF61-4BAB-AF12-CB85EE8CA935}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40D9E80E-AF61-4BAB-AF12-CB85EE8CA935}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40D9E80E-AF61-4BAB-AF12-CB85EE8CA935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E09013-7BEB-4B04-9371-00514F5AF1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E09013-7BEB-4B04-9371-00514F5AF1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E09013-7BEB-4B04-9371-00514F5AF1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E09013-7BEB-4B04-9371-00514F5AF1EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
