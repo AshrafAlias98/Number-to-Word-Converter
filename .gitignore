@@ -494,3 +494,20 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+/NumberConverter/obj/Debug/net8.0/ref/NumberConverter.dll
+/NumberConverter/bin/Debug/net8.0/NumberConverter.dll
+/NumberConverter/bin/Debug/net8.0/NumberConverter.exe
+/NumberConverter/bin/Debug/net8.0/NumberConverter.pdb
+/NumberConverter/bin/Debug/net8.0/NumberConverter.staticwebassets.runtime.json
+/NumberConverter/obj/Debug/net8.0/refint/NumberConverter.dll
+/NumberConverter/obj/Debug/net8.0/apphost.exe
+/NumberConverter/obj/Debug/net8.0/NumberConverter.AssemblyInfoInputs.cache
+/NumberConverter/obj/Debug/net8.0/NumberConverter.csproj.FileListAbsolute.txt
+/NumberConverter/obj/Debug/net8.0/NumberConverter.dll
+/NumberConverter/obj/Debug/net8.0/NumberConverter.GeneratedMSBuildEditorConfig.editorconfig
+/NumberConverter/obj/Debug/net8.0/NumberConverter.genruntimeconfig.cache
+/NumberConverter/obj/Debug/net8.0/NumberConverter.pdb
+/NumberConverter/obj/Debug/net8.0/staticwebassets.build.json
+/NumberConverter/obj/Debug/net8.0/staticwebassets.development.json
+/NumberConverter/obj/Debug/net8.0/staticwebassets.pack.json
+/NumberConverter/obj/NumberConverter.csproj.nuget.dgspec.json
