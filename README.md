@@ -42,4 +42,5 @@ To use it is super simple,
    - It should be within the same directory as this called **StringifiedNumberstoWordsConversionTestPlan.pdf**.
 
 3. Discussion documentation
-   - xxx
+   - A PDF document has been included to document the implementation discussion.
+   - It should be within the same directory as this called **StringifiedNumberstoWordsConversionImplementationDiscussion.pdf**.
