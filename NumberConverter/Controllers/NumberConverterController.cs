@@ -20,6 +20,7 @@ namespace NumberConverter.Controllers
         [HttpPost]
         public ActionResult ConvertNumberToWord(string input)
         {
+            ViewBag.Input = input;
             ViewBag.ConvertedNumber = _numberToWordConverterService.ConvertNumberToWords(input);
             return View("Index");
         }
