@@ -7,8 +7,7 @@ Example:
 - Output: “ONE HUNDRED AND TWENTY-THREE DOLLARS AND FORTY-FIVE CENTS”
 
 How it looks once loaded!
-![image](https://github.com/AshrafAlias98/Number-to-Word-Converter/assets/79066503/fa81f720-1c1b-4eb8-8d95-91d6588494e3)
-
+![image](https://github.com/AshrafAlias98/Number-to-Word-Converter/assets/79066503/dbacad14-0870-4d5e-b667-2e26f3351329)
 
 ## 📝 Installation (How to build and host)
 
