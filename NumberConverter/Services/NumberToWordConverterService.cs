@@ -1,9 +1,12 @@
-﻿using System.Reflection.Metadata.Ecma335;
-
-namespace NumberConverter.Services
+﻿namespace NumberConverter.Services
 {
     public class NumberToWordConverterService : INumberToWordConverterService
     {
+        /// <summary>
+        /// Converts numerical input into words and passes these words as a string output parameter.
+        /// </summary>
+        /// <param name="input">Numerical input in string form.</param>
+        /// <returns>Word representation of the numerical input.</returns>
         public string ConvertNumberToWords(string input)
         {
             // Define arrays/dictionaries for word representations.
@@ -87,6 +90,14 @@ namespace NumberConverter.Services
             return result.Trim();
         }
 
+        /// <summary>
+        /// Converts a numerical group into its corresponding word representation.
+        /// </summary>
+        /// <param name="group">This represents the numerical group that needs to be converted into words. It typically consists of three digits.</param>
+        /// <param name="ones">An array containing word representations of numbers from 0 to 9.</param>
+        /// <param name="teens">An array containing word representations of numbers from 10 to 19.</param>
+        /// <param name="tens">An array containing word representations of tens (20, 30, ..., 90).</param>
+        /// <returns>A string representing the word equivalent of the input numerical group.</returns>
         private string ConvertGroupToWords(int group, string[] ones, string[] teens, string[] tens)
         {
             string groupWords = "";
@@ -124,6 +135,11 @@ namespace NumberConverter.Services
             return groupWords;
         }
 
+        /// <summary>
+        /// Round up the decimal digits to be formatted as currency decimal (2 decimal points).
+        /// </summary>
+        /// <param name="input">Decimal section of the numerical input.</param>
+        /// <returns>Parsed integer after round up to 2 decimal points.</returns>
         private int RoundUpSecondDigitAndTrim(string input)
         {
             input += "0";
@@ -136,6 +152,11 @@ namespace NumberConverter.Services
             return thirdDigit < 5 ? firstTwoDigits : firstTwoDigits+1;
         }
 
+        /// <summary>
+        /// Handles the initial check of the input for efficiency.
+        /// </summary>
+        /// <param name="input">Numerical input in string form.</param>
+        /// <returns>Early feedback to user on input or input is able to be processed further.</returns>
         private string ValidateInput(string input)
         {
             if (string.IsNullOrWhiteSpace(input) || !double.TryParse(input, out _))
@@ -147,6 +168,11 @@ namespace NumberConverter.Services
             return string.Empty;
         }
 
+        /// <summary>
+        /// Get the currency unit (e.g. Dollar, Ringgit, etc.) which can be singular or plural. 
+        /// </summary>
+        /// <param name="input">The currency unit part of the initial input.</param>
+        /// <returns>Singular or plural unit representation of the currency.</returns>
         private string GetCurrencyUnit(string input)
         {
             const string singularCurrencyUnit = "DOLLAR";
@@ -158,6 +184,11 @@ namespace NumberConverter.Services
             return pluralCurrencyUnit;
         }
 
+        /// <summary>
+        /// Get the currency sub-unit (e.g. Cent, Sen, etc.) which can be singular or plural. 
+        /// </summary>
+        /// <param name="input">The currency sub-unit part of the initial input.</param>
+        /// <returns>Singular or plural sub-unit representation of the currency.</returns>
         private string GetCurrencySubUnit(string input)
         {
             const string singularCurrencySubUnit = "CENT";
